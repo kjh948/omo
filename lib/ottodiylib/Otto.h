@@ -99,6 +99,7 @@ class Otto
     float increment[4];
 
     bool isOttoResting;
+    int pinBuzzer;
 
     unsigned long int getMouthShape(int number);
     unsigned long int getAnimShape(int anim, int index);
